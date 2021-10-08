@@ -15,7 +15,7 @@ const uniqueList = [
 
 console.log(uniqueList);
 
-const Resturant = () => {
+const Restaurent = () => {
   const [menuData, setMenuData] = useState(Menu);
   const [menuList, setMenuList] = useState(uniqueList);
 
@@ -40,5 +40,5 @@ const Resturant = () => {
   );
 };
 
-export default Resturant;
+export default Restaurent;
             
